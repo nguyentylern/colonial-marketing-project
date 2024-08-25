@@ -146,9 +146,6 @@ section p {
     main {
         display: block;
     }
-    main h2 {
-        word-break: break-all;
-    }
     main section * + * {
         margin-top: 1rem;
     }
