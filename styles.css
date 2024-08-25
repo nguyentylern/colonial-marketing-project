@@ -102,10 +102,17 @@ header {
 
 .hero-text-container p {
     font-size: 2.5rem;
+    font-style: italic;
 }
 
 .hero-text-container > :last-child {
     text-align: end;
+}
+
+@media (width < 37rem) {
+    .hero-text-container p {
+        font-size: 2rem;
+    }
 }
 
 /* MAIN */
